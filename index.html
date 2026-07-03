@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>道路交通事故现场安全防护典型场景图示整理</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .intro {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        /* 一级分类样式 */
+        .category {
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+            border: 1px solid #e1e4e8;
+        }
+        .category > summary {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 15px 20px;
+            background-color: #2c3e50;
+            color: white;
+            cursor: pointer;
+            list-style: none;
+            transition: background-color 0.3s;
+        }
+        .category > summary:hover {
+            background-color: #34495e;
+        }
+        /* 二级场景样式 */
+        .scenario-container {
+            padding: 10px 20px 20px 20px;
+        }
+        .scenario {
+            margin-top: 15px;
+            border: 1px solid #dce1e6;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .scenario > summary {
+            font-weight: bold;
+            padding: 12px 15px;
+            background-color: #e8f4fd;
+            color: #2980b9;
+            cursor: pointer;
+            list-style: none;
+            border-bottom: 1px solid transparent;
+        }
+        .scenario[open] > summary {
+            border-bottom: 1px solid #dce1e6;
+        }
+        .scenario > summary:hover {
+            background-color: #d6eaf8;
+        }
+        .content {
+            padding: 15px;
+            background-color: #ffffff;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>道路交通事故现场安全防护典型场景图示整理</h1>
+    <div class="intro">
+        分为高速公路 / 城市快速路、普通公路 / 一般城市道路两大类，共 12 个典型场景，核心设置规则如下：
+    </div>
+
+    <!-- 第一大类：高速公路与城市快速路 -->
+    <details class="category" open>
+        <summary>一、高速公路与城市快速路（5 类场景）</summary>
+        <div class="scenario-container">
+            
+            <details class="scenario">
+                <summary>1. 一般路段・边侧车道</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于高快速路一般路段的左侧 / 右侧边侧车道内<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li><strong>预警区：</strong>沿来车方向由上游向下游布设事故管理、限速、线形诱导标志，放置于同侧道路边缘，限速值阶梯式降低</li>
+                        <li><strong>警戒区：</strong>配备车辆闯入报警设备、反光锥筒，起点在道路边缘，配套警示标志；警车斜向停放作为防冲撞掩体</li>
+                        <li><strong>警戒岗：</strong>至少 1 名人员在警戒区内面向来车方向值守观察</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>2. 一般路段・中间车道</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 双向 6 车道及以上高快速路一般路段，事故位于中间车道<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>预警区、警戒区基础设置规则与边侧车道一致</li>
+                        <li>必须封闭道路中心线或路侧至中间车道的范围，禁止仅封闭中间单车道</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>3. 隧道 / 桥梁路段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于高快速路隧道、桥梁路段<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>事故在隧道入口 / 桥梁起点：按一般路段规则设置，防护距离适当延长</li>
+                        <li>事故在隧道 / 桥梁中段、出口：预警区起点提前至隧道入口 / 桥梁起点之前</li>
+                        <li>可视情采取限制通行或临时中断交通措施</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>4. 匝道路段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于高快速路匝道路段<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>预警区起点设在进入匝道前的主线路段，其余预警设置同侧车道规则</li>
+                        <li>警戒区设置同侧车道规则</li>
+                        <li>具备通行条件可留临时通道压降车速；不具备则限流 / 断流，上游同步提示分流</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>5. 高速公路收费广场</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于高速公路收费广场内<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>沿收费岛出口向下游方向设置预警区，标志牌放置于事故同侧道路边缘</li>
+                        <li>警戒区设置同中间车道规则</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </details>
+
+    <!-- 第二大类：普通公路与一般城市道路 -->
+    <details class="category">
+        <summary>二、普通公路与一般城市道路（7 类场景）</summary>
+        <div class="scenario-container">
+            
+            <details class="scenario">
+                <summary>1. 直线路段・右侧车道</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 直线路段，事故位于右侧车道内<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>预警区、警戒区基础设置规则同高快速路边侧车道</li>
+                        <li>若事故占用非机动车道、人行道，需增设防护设施隔离非机动车与行人</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>2. 直线路段・左侧车道（未跨分隔线）</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 无中央物理隔离的直线路段，事故位于左侧车道、未跨越中央分隔线<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>本侧来车方向设预警区，同时对向来车方向布设事故管理、限速标志预警，标志牌置于中央分隔线</li>
+                        <li>本侧设警戒区，中央分隔线视情摆放锥筒隔离</li>
+                        <li>若道路有中央物理隔离设施，按右侧车道规则设置</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>3. 直线路段・跨越中央分隔线</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 无中央物理隔离的直线路段，事故跨中央分隔线<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>双向来车方向均设置预警区，标志牌置于中央分隔线</li>
+                        <li>双向来车方向均设置警戒区，标志牌置于中央分隔线</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>4. 急弯路段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于急弯路段<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>预警区起点提前至进入弯道之前，其余按对应直线路段规则执行</li>
+                        <li>警戒区按对应直线路段规则执行</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>5. 陡坡路段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于陡坡路段<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>预警区起点设在坡顶附近，其余按对应直线路段规则执行</li>
+                        <li>警戒区按对应直线路段规则执行</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>6. 平面交叉口・入口段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于平面交叉口入口段，需临时封闭<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>沿来车方向由上游向下游，布设事故管理、禁止驶入标志设预警区，标志牌置于同侧道路边缘</li>
+                        <li>警戒区前端横向放置车辆闯入报警设备，配套警示标志；其余同直线路段右侧车道警戒规则</li>
+                        <li>上游同步设置信息提示与分流措施</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="scenario">
+                <summary>7. 平面交叉口・出口段</summary>
+                <div class="content">
+                    <span class="tag">场景</span> 事故位于平面交叉口出口段，需临时封闭<br><br>
+                    <strong>设置要点：</strong>
+                    <ul>
+                        <li>在所有可能驶入事故现场的入口路段，布设事故管理、禁止驶入、禁止转弯标志设预警区</li>
+                        <li>警戒区设置同入口段规则</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </details>
+
+</body>
+</html>
